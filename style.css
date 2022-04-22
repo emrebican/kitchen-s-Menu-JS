@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-color: #191919;
+}
+
+#section {
+    background-color: #eeeeee;
+}
+.title h1 {
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Updock'; */
+    font-size: 60px;
+    font-weight: 900;
+    text-decoration: underline rgba(205, 0, 0, 0.605);
+}
+.title h1 span {
+    color: rgba(205, 0, 0, 0.605);
+}
+#price {
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Updock'; */
+    font-size: 25px;
+}
+#meal-title {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    transition: .6s;
+  }
+  .light-mode-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    transition: .6s;
+  }
+  .darkmode {
+      background-color: #191919;
+      color: white;
+      transition: .6s;
+    /* --clr-light: #fdffc4;
+    --clr-dark: #00332a;
+  
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark); */
+  }
+  .lightmode {
+    background-color: white;
+    color: #191919;
+    transition: .6s;
+  /* --clr-light: #fdffc4;
+  --clr-dark: #00332a;
+
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark); */
+}
+
+/*
+
+input[type="checkbox"] {
+    appearance: none;
+    display: none;
+    visibility: hidden;
+}
+.check {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: block;
+    width: 50px;
+    height: 25px;
+    background-color: #092c3e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in .5s;
+}
+input[type="checkbox"]:checked ~ .check {
+    background-color: white;
+    box-shadow: 0 0 0 2000px #092c3e;
+}
+.check::before {
+    content: '';
+    position: absolute;
+    left: 2.5px;
+    top: 2.5px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .6s;
+}
+
+input[type="checkbox"]:checked ~ .check::before {
+    background-color: #092c3e;
+    transform: translateX(25.5px);
+}
+*/
